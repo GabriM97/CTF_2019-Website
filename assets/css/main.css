@@ -4,7 +4,7 @@
 /*
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Free for personal and commercial use under the CCA 4.0 license (html5up.net/license)
 */
 
 html, body, div, span, applet, object,
@@ -205,7 +205,7 @@ input, select, textarea {
 
 	h1 {
 		font-size: 2.25rem;
-		line-height: 1.3;
+		line-height: 1.4;
 		letter-spacing: 0.5rem;
 	}
 
@@ -346,7 +346,7 @@ input, select, textarea {
 				}
 
 				form > .fields > .field.third {
-					width: calc(100%/3 - 0.5rem);
+					width: calc(100%/4 - 0.5rem);
 				}
 
 				form > .fields > .field.quarter {
@@ -436,7 +436,7 @@ input, select, textarea {
 		}
 
 	select {
-		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23ffffff' /%3E%3C/svg%3E");
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.4,0,0.6,0.1,0.9,0.4l3.4,4.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.4,0-0.6-0.1-0.9-0.4L4.4,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.4-4.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23ffffff' /%3E%3C/svg%3E");
 		background-size: 1.25rem;
 		background-repeat: no-repeat;
 		background-position: calc(100% - 1rem) center;
@@ -1145,9 +1145,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1205,7 +1208,7 @@ input, select, textarea {
 		min-height: 100vh;
 		width: 100%;
 		padding: 4rem 2rem;
-		z-index: 3;
+		z-index: 4;
 	}
 
 		#wrapper:before {
@@ -1270,17 +1273,17 @@ input, select, textarea {
 			-ms-transition: opacity 0.325s ease-in-out;
 			transition: opacity 0.325s ease-in-out;
 			position: relative;
-			margin-top: 3.5rem;
+			margin-top: 4.5rem;
 		}
 
 			#header > *:before {
 				content: '';
 				display: block;
 				position: absolute;
-				top: calc(-3.5rem - 1px);
+				top: calc(-4.5rem - 1px);
 				left: calc(50% - 1px);
 				width: 1px;
-				height: calc(3.5rem + 1px);
+				height: calc(4.5rem + 1px);
 				background: #ffffff;
 			}
 
@@ -1532,7 +1535,7 @@ input, select, textarea {
 		flex-direction: column;
 		position: relative;
 		max-width: 100%;
-		z-index: 3;
+		z-index: 4;
 	}
 
 		#main article {
@@ -1604,7 +1607,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#main article {
-				padding: 3.5rem 2rem 0.5rem 2rem ;
+				padding: 4.5rem 2rem 0.5rem 2rem ;
 			}
 
 				#main article .close:before {
@@ -1661,3 +1664,32 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		img.iclass:hover {
+			-webkit-transform: scale(3.5,3.5);
+			-moz-transform: scale(3.5,3.5);
+			-o-transform: scale(3.5,3.5);
+			-ms-transform: scale(3.5,3.5);
+			transform: scale(3.5,3.5);
+			
+		}
+		img.iclass {
+			-webkit-transition: all 250ms ease-in-out;
+			-moz-transition: all 250ms ease-in-out;
+			-ms-transition: all 250ms ease-in-out;
+			-o-transition: all 250ms ease-in-out;
+			transition: all 250ms ease-in-out;
+		}
+
+		img.iclass {
+			max-width: 100%;
+			}
+			div.bodiv {
+			margin: 20px;
+			padding: 20px;
+			}
+			.bodiv img {
+			height: auto;
+			width: auto;
+			background: none;
+			}
